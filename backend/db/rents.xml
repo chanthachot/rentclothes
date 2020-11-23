@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rents>
+	<users>
+		<user userid="1">
+			<name>Bank</name>
+			<email>chanthachot_2541@hotmail.com</email>
+			<phone>0623500110</phone>
+			<username>admin</username>
+			<password>admin</password>
+			<status>admin</status>
+		</user>
+
+		<user userid="2">
+			<name>เทส</name>
+			<email>test@gmail.com</email>
+			<phone>0851231251</phone>
+			<username>test</username>
+			<password>test</password>
+			<status>user</status>
+		</user>
+
+
+	</users>
+	<Types>
+		<Type id="0">
+			<type_name>ไม่ได้เลือกประเภทสินค้า</type_name>
+		</Type>
+		<Type id="1">
+			<type_name>ชุดราตรีสั้น</type_name>
+		</Type>
+		<Type id="2">
+			<type_name>ชุดราตรียาว</type_name>
+		</Type>
+		<Type id="3">
+			<type_name>ชุดราตรียาวจั๊มสูท กางเกง</type_name>
+		</Type>
+		<Type id="4">
+			<type_name>ชุดไทย ชุดไทยประยุกต์</type_name>
+		</Type>
+	</Types>
+
+	<RentLists>
+		
+		<RentList rentid="1" clothesidref="6" status="1" userid="1">
+			<OrderNo>239640</OrderNo>
+			<DateRent>23-11-2020</DateRent>
+			<TimeRent>14:53</TimeRent>
+			<DateGive>23-11-2020</DateGive>
+			<DateReturn>29-11-2020</DateReturn>
+		</RentList>
+	</RentLists>
+
+	<RentStatuses>
+		<RentStatus rentstatusid="1">
+			<status_name>ยังไม่มารับ</status_name>
+		</RentStatus>
+		<RentStatus rentstatusid="2">
+			<status_name>รับไปแล้ว</status_name>
+		</RentStatus>
+		<RentStatus rentstatusid="3">
+			<status_name>รับคืนแล้ว</status_name>
+		</RentStatus>
+	</RentStatuses>
+	<Clothes>
+		<Clothe clothesid="1" typeid="1">
+			<Name>เดรสสั้น เเขนสามส่วนผ้าลูกไม้</Name>
+			<Pricee>2755</Pricee>
+			<Image>https://app.missuri.shop/dataFile/1-PT-PK0648-B1-1.jpg</Image>
+			<size>XL</size>
+			<description>เอว 32 อก 38 สะโพก 38 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ชมพู</color>
+		</Clothe>
+		<Clothe clothesid="2" typeid="1">
+			<Name>ชุดราตรีสั้นเเขนยาวเเยกชิ้น ผ้าลูกไม้ทั้งชุด ระบายเอว</Name>
+			<Pricee>2755</Pricee>
+			<Image>https://app.missuri.shop/dataFile/1-PT-Gl0647-B1-1.jpg</Image>
+			<size>2XL</size>
+			<description>เอว 34 อก 40 สะโพก 40 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ทองแชมเปญ</color>
+		</Clothe>
+		<Clothe clothesid="3" typeid="1">
+			<Name>ผ้าลูกไม้เเบบชุดราตรีสั้นผู้ใหญ่เเขนสั้นเข้ารูปกระโปรงทรงสอบ</Name>
+			<Pricee>2755</Pricee>
+			<Image>https://app.missuri.shop/dataFile/1-PT-BR0643-b1-1.jpg</Image>
+			<size>L</size>
+			<description>เอว 30 อก 36 สะโพก 36 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>น้ำตาล</color>
+		</Clothe>
+		<Clothe clothesid="4" typeid="1">
+			<Name>เดรสสีเทาสั้นแขนยาวลูกไม้กระโปรงทรงสอบเข้ารูป</Name>
+			<Pricee>2090</Pricee>
+			<Image>https://app.missuri.shop/dataFile/1-PT-GA0626-B1-1.jpg</Image>
+			<size>L</size>
+			<description>เอว 30 อก 36 สะโพก 36 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>เทา เงิน</color>
+		</Clothe>
+		<Clothe clothesid="5" typeid="1">
+			<Name>เดรสสั้นทรงสอบเข้ารูป ชุดไปงาน ตกแต่งช่วงแขนเพิ่มดีเทล</Name>
+			<Pricee>1425</Pricee>
+			<Image>https://app.missuri.shop/dataFile/1-PT-BL0616-B1-1.jpg</Image>
+			<size>L</size>
+			<description>เอว 30 อก 36 สะโพก 36 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ดำ</color>
+		</Clothe>
+		<Clothe clothesid="6" typeid="1">
+			<Name>ชุดเดรสสั้นสีเเดงเสริมชีฟองช่วงไหล่เข้ารูปกระโปรงทรงสอบ</Name>
+			<Pricee>1425</Pricee>
+			<Image>https://app.missuri.shop/dataFile/1-PT-RE0616-B1-1.jpg</Image>
+			<size>M</size>
+			<description>เอว 28 อก 34 สะโพก 34 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>แดง</color>
+		</Clothe>
+		<Clothe clothesid="7" typeid="1">
+			<Name>เดรสออกงาน เเบบชุดเข้ารูปผ้ากำมะหยี่ ปาดไหล่ กระโปรงทรงสอบเข้ารูป</Name>
+			<Pricee>7255</Pricee>
+			<Image>https://app.missuri.shop/dataFile/1-PT-BU0606-B1-1.jpg</Image>
+			<size>XL</size>
+			<description>เอว 32 อก 38 สะโพก 38 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>น้ำเงิน</color>
+		</Clothe>
+		<Clothe clothesid="8" typeid="1">
+			<Name>ชุดเดรสสั้นสีโอรส แบบผ้าลูกไม้นำเข้า กระโปรงทรงเข้ารูปหรูหรา</Name>
+			<Pricee>2090</Pricee>
+			<Image>https://app.missuri.shop/dataFile/1-PT-OR0605-B1-1.JPG</Image>
+			<size>XL</size>
+			<description>เอว 32 อก 38 สะโพก 38 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ส้ม โอรส พีช</color>
+		</Clothe>
+		<Clothe clothesid="9" typeid="1">
+			<Name>สไตล์ชุดงานเช้าเดรสสั้ยลายไทยเข้ารูปกระโปรงทรงสอบคลุมเข่า</Name>
+			<Pricee>7255</Pricee>
+			<Image>https://app.missuri.shop/dataFile/Shop1_8496_393445.jpg</Image>
+			<size>M</size>
+			<description>เอว 28 อก 34 สะโพก 34 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ม่วง</color>
+		</Clothe>
+		<Clothe clothesid="10" typeid="1">
+			<Name>สไตล์ชุดเดรสสั้นแยกชิ้น ผ้าลูกไม้ปักดิ้นทอง แขนสามส่วน</Name>
+			<Pricee>7255</Pricee>
+			<Image>https://app.missuri.shop/dataFile/Shop1_8494_390369.jpg</Image>
+			<size>2XL</size>
+			<description>เอว 34 อก 40 สะโพก 40 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ทอง แชมเปญ</color>
+		</Clothe>
+		<Clothe clothesid="11" typeid="2">
+			<Name>ชุดราตรียาวคนอ้วนสีน้ำเงินกรมแขนกุด ผ้าลูกไม้ปักเลือม ผ่าหน้าขา</Name>
+			<Pricee>7255</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-BU0664-B1-1.jpg</Image>
+			<size>7XL</size>
+			<description>เอว 44 อก 50 สะโพก 50 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>น้ำเงิน</color>
+		</Clothe>
+		<Clothe clothesid="12" typeid="2">
+			<Name>ราตรียาวพลัสไซส์สีแดง แขนยาวผ้าเลื่อมทั้งชุด แบบหรูหรา</Name>
+			<Pricee>7255</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-RE0666-B1-1.jpg</Image>
+			<size>7XL</size>
+			<description>เอว 44 อก 50 สะโพก 50 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>แดง</color>
+		</Clothe>
+		<Clothe clothesid="13" typeid="2">
+			<Name>ชุดราตรีพลัสไซร์สีแดงแขนกุด ผ้าลูกไม้ปักเลือม ผ่าหน้าขา เซ็กซี่</Name>
+			<Pricee>2900</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-RE0664-B1-1.jpg</Image>
+			<size>7XL</size>
+			<description>เอว 44 อก 50 สะโพก 50 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>แดง</color>
+		</Clothe>
+		<Clothe clothesid="14" typeid="2">
+			<Name>ชุดราตรียาวสีเทาเงิน พลัสไซส์ แขนยาวผ้าเลื่อม คอวี กระโปรงผ้าซาติล</Name>
+			<Pricee>2755</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-GA0665-B1-1.jpg</Image>
+			<size>7XL</size>
+			<description>เอว 44 อก 50 สะโพก 50 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>เทาน้ำเงิน</color>
+		</Clothe>
+		<Clothe clothesid="15" typeid="2">
+			<Name>เดรสยาวพลัสไซร์สีแดง แขนยาวผ้าเลื่อม คอวี กระโปรงผ้าซาติน หรูหรา</Name>
+			<Pricee>2755</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-RE0665-B1-1.jpg</Image>
+			<size>7XL</size>
+			<description>เอว 44 อก 50 สะโพก 50 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>แดง</color>
+		</Clothe>
+		<Clothe clothesid="16" typeid="2">
+			<Name>ชุดราตรียาวสีฟ้าพลัสไซส์ ผ้ากลิตเตอร์ปักเลื่อม แขนสั้น กระโปรงทรงสุ่ม</Name>
+			<Pricee>2755</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-SK0663-B1-1.jpg</Image>
+			<size>7XL</size>
+			<description>เอว 44 อก 50 สะโพก 50 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ฟ้า</color>
+		</Clothe>
+		<Clothe clothesid="17" typeid="2">
+			<Name>ชุดราตรียาวสีชมพูคนอ้วน แขนสั้น กระโปรงทรงสุ่มเรียบหรู ผ้าปักเลื่อม</Name>
+			<Pricee>2755</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-PK0663-B1-1.jpg</Image>
+			<size>7XL</size>
+			<description>เอว 44 อก 50 สะโพก 50 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ชมพู</color>
+		</Clothe>
+		<Clothe clothesid="18" typeid="2">
+			<Name>ชุดราตรียาวสีเทา กระโปรงหางปลา แขนสั้น ผ้ากลิตเตอร์ปักเลื่อม</Name>
+			<Pricee>2755</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-GA0662-B1-1.jpg</Image>
+			<size>7XL</size>
+			<description>เอว 44 อก 50 สะโพก 50 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>เทา เงิน</color>
+		</Clothe>
+		<Clothe clothesid="19" typeid="2">
+			<Name>ชุดราตรียาวสีฟ้า กระโปรงหางปลา แขนสั้น ผ้ากลิตเตอร์ปักเลื่อม</Name>
+			<Pricee>2755</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-SK0662-B1-1.jpg</Image>
+			<size>7XL</size>
+			<description>เอว 44 อก 50 สะโพก 50 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ฟ้า</color>
+		</Clothe>
+		<Clothe clothesid="20" typeid="2">
+			<Name>ชุดราตรียาวสีทอง กระโปรงหางปลา แขนสั้น ผ้ากลิตเตอร์ปักเลื่อม</Name>
+			<Pricee>2755</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-GL0662-B1-1.jpg</Image>
+			<size>7XL</size>
+			<description>เอว 44 อก 50 สะโพก 50 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ทองแชมเปญ</color>
+		</Clothe>
+		<Clothe clothesid="21" typeid="3">
+			<Name>ชุดราตรีแบบกางเกงทรงเข้ารูป สีชมพู</Name>
+			<Pricee>1900</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-PK0667-B1-1.jpg</Image>
+			<size>M</size>
+			<description>เอว 28 อก 34 สะโพก 34 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ชมพู</color>
+		</Clothe>
+		<Clothe clothesid="22" typeid="3">
+			<Name>ชุดราตรีแบบกางเกงทรงเข้ารูป แขนกุด สีแดง</Name>
+			<Pricee>1900</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-RE0667-B1-1.jpg</Image>
+			<size>M</size>
+			<description>เอว 28 อก 34 สะโพก 34 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>แดง</color>
+		</Clothe>
+		<Clothe clothesid="23" typeid="3">
+			<Name>ชุดราตรีแบบกางเกง ทรงบ่าเดี่ยว ดีเทลหรูหราช่วงหลังตกแต่งผ้าพริ้ว</Name>
+			<Pricee>1425</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-OR0592-B1-1.jpg</Image>
+			<size>M</size>
+			<description>เอว 28 อก 34 สะโพก 34 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ส้ม โอรส พีช</color>
+		</Clothe>
+		<Clothe clothesid="24" typeid="3">
+			<Name>ชุดจั๊มสูทแบบกางเกง สีเหลือง</Name>
+			<Pricee>1425</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-YO0563-B1-1.jpg</Image>
+			<size>L</size>
+			<description>เอว 30 อก 36 สะโพก 36 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>เหลือง</color>
+		</Clothe>
+		<Clothe clothesid="25" typeid="3">
+			<Name>ชุดจั๊มสูทแบบกางเกง</Name>
+			<Pricee>1425</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-CR0448-B1-1.jpg</Image>
+			<size>L</size>
+			<description>เอว 30 อก 36 สะโพก 36 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ครีม</color>
+		</Clothe>
+		<Clothe clothesid="26" typeid="3">
+			<Name>ชุดจั๊มสูทแบบกางเกง</Name>
+			<Pricee>1425</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-RE0448-B1-1.jpg</Image>
+			<size>L</size>
+			<description>เอว 30 อก 36 สะโพก 36 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>แดง</color>
+		</Clothe>
+		<Clothe clothesid="27" typeid="3">
+			<Name>ชุดจั๊มสูทแบบกางเกง ผ้าลูกปัดยืด คล้องคอ</Name>
+			<Pricee>1425</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-OR0448-B1-1.png</Image>
+			<size>L</size>
+			<description>เอว 30 อก 36 สะโพก 36 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ส้ม โอรส พีช</color>
+		</Clothe>
+		<Clothe clothesid="28" typeid="3">
+			<Name>ชุดราตรีกางเกงจับจีบ</Name>
+			<Pricee>1425</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-BL0440-B1-1.jpg</Image>
+			<size>L</size>
+			<description>เอว 30 อก 36 สะโพก 36 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ดำ</color>
+		</Clothe>
+		<Clothe clothesid="29" typeid="3">
+			<Name>ชุดราตรีแบบกางเกง ชุดราตรีสีแดง ชุดราตรีปาดไหล่</Name>
+			<Pricee>1425</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-RE0377-B1-1.jpg</Image>
+			<size>M</size>
+			<description>เอว 28 อก 34 สะโพก 34 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>แดง</color>
+		</Clothe>
+		<Clothe clothesid="30" typeid="3">
+			<Name>ชุดราตรีแบบกางเกง ชุดราตรีสีม่วง ชุดจั้มสูท</Name>
+			<Pricee>1805</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-PU0373-B1-1.jpg</Image>
+			<size>2XL</size>
+			<description>เอว 34 อก 40 สะโพก 40 (ปรับแก้ ขยาย ลด ไม่เกิน 2 นิ้ว)</description>
+			<color>ม่วง</color>
+		</Clothe>
+		<Clothe clothesid="31" typeid="4">
+			<Name>ชุดไทยประยุกต์ ชุดไทย บรมพิมาน สีขาว</Name>
+			<Pricee>428</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-PT-WH873-B1-1.jpg</Image>
+			<size>S</size>
+			<description>เอว 26 อก 32 สะโพก 32</description>
+			<color>ขาว</color>
+		</Clothe>
+		<Clothe clothesid="32" typeid="4">
+			<Name>ชุดไทยประยุคต์เสิ้อลูกไม้สีทอใคู่กับโจงกระเบนสีเเดง</Name>
+			<Pricee>808</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-TH-GL007-B1-9.jpg</Image>
+			<size>XL</size>
+			<description>เอว 32 อก 38 สะโพก 38</description>
+			<color>ทอง แชมเปญ</color>
+		</Clothe>
+		<Clothe clothesid="33" typeid="4">
+			<Name>ชุดไทยประยุกต์ เสื้อระบายคู่ผ้าถุงจีบหน้านาง</Name>
+			<Pricee>428</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-TH-WH007-1-B1-1.jpg</Image>
+			<size>M</size>
+			<description>เอว 28 อก 34 สะโพก 34</description>
+			<color>ขาว</color>
+		</Clothe>
+		<Clothe clothesid="34" typeid="4">
+			<Name>ชุดไทยสไบเฉียงสีเขียน้ำเงินผ้าถุงจีบหน้านาง</Name>
+			<Pricee>428</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-TH-BU007-B1-1.jpg</Image>
+			<size>L</size>
+			<description>เอว 30 อก 36 สะโพก 36</description>
+			<color>น้ำเงิน</color>
+		</Clothe>
+		<Clothe clothesid="35" typeid="4">
+			<Name>ชุดไทยเสื้อสไบเฉียงสีเขียวผ้าถุงจีบหน้านางสีเเดง</Name>
+			<Pricee>428</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-TH-GR009-B1-1.jpg</Image>
+			<size>L</size>
+			<description>เอว 30 อก 36 สะโพก 36</description>
+			<color>เขียว</color>
+		</Clothe>
+		<Clothe clothesid="36" typeid="4">
+			<Name>ชุดไทยรัชกาลที่ ๕ เสื้อราชประแตนสีทอง</Name>
+			<Pricee>808</Pricee>
+			<Image>https://app.missuri.shop/dataFile/2-TH-GL0203-B1-1.jpg</Image>
+			<size>4XL</size>
+			<description>เอว 38 อก 44 สะโพก 44</description>
+			<color>ทอง แชมเปญ</color>
+		</Clothe>
+		<Clothe clothesid="37" typeid="1">
+			<Name>ชุดไทยประยุกต์ คุณผู้ชาย เสื้อสูทสีน้ำเงิน กับ โจงกะเบนสีน้ำเงิน-กรม1</Name>
+			<Pricee>8081</Pricee>
+			<Image>17147007220201114_003811.png</Image>
+			<size>XL1</size>
+			<description>เอว 32 อก 38 สะโพก 381</description>
+			<color>น้ำเงิน1</color>
+		</Clothe>
+
+
+	</Clothes>
+
+
+</Rents>
